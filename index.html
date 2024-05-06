@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <!-- End Fonts -->
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- End Feather Icons -->
+
+    <title>Wanderlust Adventures</title>
+  </head>
+
+  <body>
+    <!--Start Navbar -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo"> Wanderlust <span> Adventure</span></a>
+      <div class="navbar-group">
+        <div class="navbar-nav">
+          <a href="#">Home</a>
+          <a href="#about">Our Package</a>
+          <a href="#contact">Call Us</a>
+        </div>
+        <div class="navbar-extra">
+          <a href="#" id="hamburger-menu"> <i data-feather="menu"></i></a>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Hero Section -->
+    <section class="hero" id="home">
+      <header class="content-header">
+        <h1>Welcome to Wanderlust <span> Adventures</span> !</h1>
+        <p>Begin your Adventure with us</p>
+      </header>
+      <aside class="container-slide" id="slider-utama">
+        <div class="slider-wrapper">
+          <img src="asset/image1.jpg" class="slide" />
+          <img src="asset/image2.jpg" class="slide" />
+          <img src="asset/image3.jpg" class="slide" />
+          <img src="asset/image4.jpg" class="slide" />
+        </div>
+        <!-- FORM  -->
+        <form id="salesContactForm">
+          <h1>Contact Us</h1>
+          <br />
+          <p>
+            Sales akan menghubungi anda 1x24 jam setelah data anda kami terima.
+          </p>
+          <br />
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required />
+          <p id="name-error" style="display: none; color: red">
+            Please enter your name
+          </p>
+
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required />
+          <p id="email-error" style="display: none; color: red">
+            Masukkan Email dengan benar
+          </p>
+
+          <label for="options">Select option:</label>
+          <select id="options" name="options">
+            <option value="" selected disabled>Pilih salah satu</option>
+            <option value="option1">Tiket Pesawat</option>
+            <option value="option2">Tiket Pesawat + Hotel</option>
+          </select>
+          <p id="option-error" style="display: none; color: red">
+            Pilih sesuai dengan kriteria
+          </p>
+
+          <button type="submit">SEND</button>
+        </form>
+      </aside>
+    </section>
+    <!-- End Hero Section -->
+
+    <!-- Start Body Section -->
+    <div id="about" class="crack">
+      <h1>OUR PACKAGE</h1>
+    </div>
+
+    <div class="package">
+      <div class="package-option">
+        <h1><i data-feather="map-pin"></i> Bali</h1>
+        <p>
+          Travel dan wisata di Bali. Kunjungi cagar budaya dan kuliner yang
+          menarik
+        </p>
+      </div>
+      <div class="package-option">
+        <h1><i data-feather="map-pin"></i> Japan</h1>
+        <p>
+          Travel dan wisata di Japan. Kunjungi cagar budaya dan kuliner yang
+          menarik
+        </p>
+      </div>
+      <div class="package-option">
+        <h1><i data-feather="map-pin"></i> Singapore</h1>
+        <p>
+          Travel dan wisata di Singapore. Kunjungi cagar budaya dan kuliner yang
+          menarik
+        </p>
+      </div>
+    </div>
+
+    <hr class="border" />
+
+    <div class="package">
+      <div class="package-option">
+        <h1><i data-feather="map-pin"></i> Korea</h1>
+        <p>
+          Travel dan wisata di Korea. Kunjungi cagar budaya dan kuliner yang
+          menarik
+        </p>
+      </div>
+      <div class="package-option">
+        <h1><i data-feather="map-pin"></i> Paris</h1>
+        <p>
+          Travel dan wisata di Paris. Kunjungi cagar budaya dan kuliner yang
+          menarik
+        </p>
+      </div>
+      <div class="package-option">
+        <h1><i data-feather="map-pin"></i> London</h1>
+        <p>
+          Travel dan wisata di London. Kunjungi cagar budaya dan kuliner yang
+          menarik
+        </p>
+      </div>
+    </div>
+
+    <!-- Closing Section -->
+    <section class="closing" id="contact">
+      <div class="closing-argument">
+        <h1>
+          Embark on Your Next Adventure with Us: Wanderlust
+          <span> Adventure</span> !
+        </h1>
+        <p>
+          Dengan layanan yang terpercaya dan pengalaman yang tak terlupakan,
+          kami siap membantu mewujudkan setiap petualangan Anda. Dari destinasi
+          eksotis hingga liburan santai, jadikan kami mitra perjalanan terbaik
+          Anda. Jadikan setiap momen berharga dan tinggalkan semua detail kepada
+          kami. Hubungi kami hari ini dan mulailah merencanakan petualangan Anda
+          yang tak terlupakan!
+        </p>
+      </div>
+      <button id="call-us">CALL US</button>
+    </section>
+    <!-- End Body Section -->
+    <hr class="border1" />
+
+    <footer class="footer">
+      <a href="#" class="navbar-logo"> Wanderlust <span> Adventure</span></a>
+      <div class="term">
+        <p>Terms of service</p>
+        <p>Privacy policy</p>
+      </div>
+      <p>&copy; 2024 Ghilbran Rafif Mulya.</p>
+    </footer>
+    <!-- Footer Section -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
