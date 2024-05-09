@@ -474,15 +474,24 @@ select {
     padding: 1em;
     height: 20em;
   }
+  .box h2 {
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
   .box p {
     text-align: center;
+    font-size: 8px;
+  }
+  #salesContactForm {
+    width: auto;
+    height: auto;
   }
 }
 
 /* Mobile Phone */
-@media (max-width: 450px) {
+@media (max-width: 425px) {
   html {
-    font-size: 55%;
+    font-size: 40%;
   }
   .hero .content {
     max-width: 40rem;
